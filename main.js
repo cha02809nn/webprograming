@@ -1,8 +1,25 @@
-let show = "RMUTL"
-let name = "Sirchai Daengchaona"
+// Sirchai Daengchaona
+/*
+    week 2 - Javascript
+*/
+let name = "Sirchai";
+let lastname;
+lastname = "Daengchaona";
 
-console.log("Javascript")
-console.log(show)
-console.log(name)
+// console.log(`สวัสดีคุณ ${name} ${lastname}`);
 
-// document.getElementById("show").innerHTML = show;
+const PI = 3.14;
+
+let obj = {
+    name: "Sirchai",
+    lastname: "Daengchaona",
+    address: {
+        Number: "153/4",
+        province: "พิษณุโลก"
+    }
+}
+
+console.log(obj.name);
+console.log(obj.lastname);
+console.log(obj.address.Number);
+console.log(obj.address.province);
