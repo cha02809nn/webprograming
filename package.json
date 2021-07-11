@@ -1,0 +1,23 @@
+{
+  "name": "webprograming",
+  "version": "1.0.0",
+  "description": "สิรชัย แดงชาวนา\r มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนาพิษณุโลก",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cha02809nn/webprograming.git"
+  },
+  "keywords": [],
+  "author": "Sirchai Daengchaona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cha02809nn/webprograming/issues"
+  },
+  "homepage": "https://github.com/cha02809nn/webprograming#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
