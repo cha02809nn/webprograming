@@ -1,25 +1,39 @@
-// Sirchai Daengchaona
 /*
-    week 2 - Javascript
-*/
-let name = "Sirchai";
-let lastname;
-lastname = "Daengchaona";
-
-// console.log(`สวัสดีคุณ ${name} ${lastname}`);
-
-const PI = 3.14;
-
-let obj = {
-    name: "Sirchai",
-    lastname: "Daengchaona",
-    address: {
-        Number: "153/4",
-        province: "พิษณุโลก"
-    }
+function sum(x, y) {
+    return x + y;
 }
+*/
 
-console.log(obj.name);
-console.log(obj.lastname);
-console.log(obj.address.Number);
-console.log(obj.address.province);
+const sum = (x, y) => x + y;
+const minus = (x, y) => x - y;
+const multi = (x, y) => x * y;
+const div = (x, y) => x / y;
+
+let x = sum(5,10);
+let y = minus(40, 30);
+let z = multi(8, 5);
+let i = div(100, 2);
+
+sum(1,2);
+sum(2,4);
+sum(5,6);
+sum(7,8);
+
+console.log(`x = ${x}`);
+console.log(`y = ${y}`);
+console.log(`z = ${z}`);
+console.log(`i = ${i}`);
+
+/*
+function sum(x, y) {
+    console.log("Show Sum");
+    console.log(x + y)
+}
+*/
+
+/*
+const sum = (x, y) => {
+    console.log("Show Sum");
+    console.log(x + y)
+}
+*/
